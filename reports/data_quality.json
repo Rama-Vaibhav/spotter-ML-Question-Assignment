@@ -1,0 +1,36 @@
+{
+  "train_rows": 48000,
+  "validation_rows": 12000,
+  "train_date_range": [
+    "2025-01-01",
+    "2025-10-31"
+  ],
+  "validation_date_range": [
+    "2025-11-01",
+    "2025-12-31"
+  ],
+  "missing_weight_train": 300,
+  "missing_weight_validation": 165,
+  "negative_weight_train": 292,
+  "negative_weight_validation": 145,
+  "weight_at_cap_train": 1204,
+  "missing_market_index_train": 374,
+  "missing_market_index_validation": 249,
+  "rate_per_mile_min": 0.33370919413341743,
+  "rate_per_mile_max": 14.125293930727675,
+  "duplicate_load_ids": 0,
+  "cities_train": 64,
+  "cities_validation": 72,
+  "unseen_cities_in_validation": [
+    "Allentown",
+    "Charlotte",
+    "Chicago",
+    "Jackson",
+    "Knoxville",
+    "Laredo",
+    "Norfolk",
+    "San Diego"
+  ],
+  "validation_rows_with_unseen_city": 1447,
+  "rate_outliers_removed_from_training": 677
+}
